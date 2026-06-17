@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: #efefef;
+
+    padding: 40px;
+}
+
+h1 {
+
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.keyboard {
+
+    border: 1px solid lightgray;
+
+    padding: 20px;
+
+    border-radius: 10px;
+}
+
+.row {
+
+    display: flex;
+
+    gap: 12px;
+
+    margin-bottom: 12px;
+}
+
+.key {
+
+    flex: 1;
+
+    height: 80px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 24px;
+
+    border-radius: 10px;
+
+    background: #ededed;
+
+    box-shadow:
+        inset 5px 5px 10px #d5d5d5,
+        inset -5px -5px 10px white;
+}
+
+.tab,
+.caps {
+    flex: 1.5;
+}
+
+.enter,
+.shift {
+    flex: 2;
+}
+
+.space {
+    flex: 4;
+}

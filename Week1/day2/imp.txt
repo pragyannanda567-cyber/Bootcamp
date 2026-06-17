@@ -1,0 +1,22 @@
+Element/Tag selectors
+id selectors(#)
+class selectors(.)
+universal selectors(*)
+group selectors
+
+
+Very imp:
+S (Inline Style)=>1000
+I(id)=>100
+C(CLass)=>10
+T(Tag)=>1
+U(universal)=>0
+
+
+
+
+Combinators:
+Descendent selectors(space)
+child selectors(>)
+general sibling selectors(~)
+Adjuscent sibling selectors(+)

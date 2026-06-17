@@ -1,0 +1,1 @@
+console.log("ram" && "shyam" && 0.5 && "" && "mukesh");

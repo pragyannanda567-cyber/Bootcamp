@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex in CSS</title>
+</head>
+<body>
+    <div class="cont">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+</body>
+</html>
+
+<style>
+    .cont>div{
+        width: 50px;
+        border: 1px solid red;
+        font-size: 30px;
+        padding: 30px;
+    }
+    .cont>div:nth-child(1){
+        background-color: red;
+    }
+    .cont>div:nth-child(2){
+        background-color: green;
+    }
+    .cont>div:nth-child(3){
+        background-color: purple;
+    }
+
+    .cont{
+        border: 1px solid black;
+        padding: 20px;
+        margin: 20px;
+        height: 500px;
+        display: flex;
+        background-color: aqua;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+
+</style>

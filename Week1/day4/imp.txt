@@ -1,0 +1,36 @@
+JS is a client site language used to create website
+
+Node js is an Environment to run js outside Browser
+
+1.variables - container/empty boxes that hold values
+
+
+
+variables
+
+
+
+GUI=> Graphical User Interface
+CLI=> Command Line 
+
+Data Types:
+1. Primitive Data/Inbuilt/[Value Data Types]  Types
+includes:
+numbers
+string
+boolean
+null
+undefined
+
+
+2. Non Primitive Data Types/User Data Types/Refrence Data Types
+includes:
+object
+arr
+function
+
+explicit Data Types (User Defined Data types)=> null(In JS for a null value, its data types are Object)
+Implicit Data Types(System Defined Data Types)=> undefined
+
+
+Array is itself an object so Its DT will be object
