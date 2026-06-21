@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+#display{
+    width: 290px;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 15px;
+    padding-right: 10px;
+}
+
+button{
+    width: 70px;
+    height: 60px;
+    font-size: 24px;
+    margin: 3px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+button:hover{
+    background-color: #ddd;
+}
+
+button:last-child,
+.operator{
+    background-color: black;
+    color: white;
+}
+
+.clear{
+    background-color: red;
+    color: white;
+}
