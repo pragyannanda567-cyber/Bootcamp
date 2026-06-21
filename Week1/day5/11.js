@@ -153,4 +153,6 @@
 
 
 
-
+str='123'
+let a1 = Number(str);
+console.log(a1, typeof a1);
