@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>PLS INSPECT THIS PAGE TO LEARN</h1>
+
+</body>
+</html>
+
+<script>
+    var count=10;
+    promise= new Promise((resolve,reject)=>{
+        if (count < 0){
+            return reject('Negative count')
+        }
+        else{
+            return resolve('Positive Count')
+        }
+    })
+
+    promise.then((res)=>{
+        console.log('Resolved State',res);
+        
+    })
+    promise.catch((res)=>{
+        console.log('Rejected State',res);
+    })
+</script>

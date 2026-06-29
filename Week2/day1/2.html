@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Values from HTML Elements</title>
+</head>
+
+<body>
+    <h1 id="head">Hello From Heading</h1>
+    
+</body>
+</html>
+
+<script>
+    //Step 1 Select / Catch the element
+    const element = document.getElementById('head');
+    //Step 2 Get / Read values from element
+    const content =element.innerText;
+    console.log(content);
+    //Step 3 Write / update values from Element
+    element.innerText='Hello world'
+    
+    
+</script>
